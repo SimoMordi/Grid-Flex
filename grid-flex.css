@@ -1,0 +1,66 @@
+body * {
+    box-sizing: border-box;
+}
+
+div#Page-view {
+    display: grid;
+    grid-template-rows: 100px 100px 1fr 100px;
+    background-color: bisque;
+    gap: 6px;
+}
+
+#Page-view h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: xxx-large;
+    font-style: italic;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    padding: 10px 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(196, 7, 7);
+}
+h2 {
+    font-style: italic;
+    font-size: x-large;
+    margin: auto;
+}
+h3 {
+    font-size: x-large;
+    font-style: italic;
+}
+.middle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    
+}
+ul.subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+
+
+div.subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+footer {
+    padding: 20px;
+    background-color: #d8d1d1;
+    
+}
